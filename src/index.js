@@ -1,4 +1,7 @@
 import './styles.css';
 
-console.log('ben hates taco bel!');
-alert('Do not believe his lies');
+import pageOne from './pageOne';
+import pageTwo from './pageTwo';
+
+pageOne()
+pageTwo()
