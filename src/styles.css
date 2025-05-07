@@ -24,10 +24,10 @@ body {
     background-color: pink;
 }
 
-#main {
+.main-frontpg {
     display: grid;
-    grid-template-rows: 1fr 3fr;
-    grid-row: 2;
+    grid-template-rows: 1fr 1fr;
+    
 }
 
 #nav-bar {
@@ -36,12 +36,13 @@ body {
     justify-content: center; 
     align-items: center;
     gap: 40px;
-    background-color: grey;
+    background-color: violet;
 } 
 
 .button {
     font-size: 30px;
 }
+
 * {
     margin:0;
     padding:0;
@@ -97,13 +98,13 @@ body {
 }
 
 .main-pic {
-    display: block;
-    position: relative;
+    display:inline-flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 29.5rem;
     width: 35.5rem;
-    grid-column: 1/ span 4;
+    grid-column: 2/ span 4;
     grid-row: 2/ span 1;
     align-items: center;
     margin-left: 35rem;
@@ -114,7 +115,6 @@ body {
   -webkit-filter: grayscale(5%) contrast(0.9);
   -moz-filter: grayscale(15%) contrast(0.9);
   filter: grayscale(5%) contrast(0.9);
-  
 }
 
 .main-pic::after {
@@ -134,4 +134,43 @@ body {
 
 .page-one {
     background-color: #063a58;
+}
+
+.page-two {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 5;
+    justify-content: center;
+}
+
+.title-two {
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.appetizers {
+    margin-bottom: 2rem;
+}
+
+.entrees {
+    margin-bottom: 2rem;
+}
+
+.sides {
+    margin-bottom: 2rem;
+}
+
+.beverages {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 2rem;
+    font-size: 3rem;
+}
+h3 {
+    margin: 1rem;
+    font-size: 2rem;
 }
