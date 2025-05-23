@@ -26,7 +26,7 @@ body {
 
 .main-frontpg {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
     
 }
 
@@ -36,7 +36,7 @@ body {
     justify-content: center; 
     align-items: center;
     gap: 40px;
-    background-color: violet;
+    background-color: rgb(77, 73, 77);
 } 
 
 .button {
@@ -137,10 +137,10 @@ body {
 }
 
 .page-two {
-    background-color: blueviolet;
+    background-color: #ad7650;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-row: 5;
+    grid-template-rows: 1fr;
+    grid-row: 1;
     justify-content: center;
 }
 
@@ -151,26 +151,21 @@ body {
 }
 
 .appetizers {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .entrees {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .sides {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .beverages {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
-h2 {
-    margin: 2rem;
-    font-size: 3rem;
-}
-h3 {
-    margin: 1rem;
-    font-size: 2rem;
+.h-title {
+    margin-bottom: 2rem;
 }
