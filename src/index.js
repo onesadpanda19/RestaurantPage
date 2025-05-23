@@ -2,7 +2,7 @@ import pageOne from './pageOne';
 import pageTwo from './pageTwo';
 import pageThree from './pageThree';
 
-const functionArray = [pageOne, pageTwo, pageThree];
+// const functionArray = [pageOne, pageTwo, pageThree];
 
 import './styles.css';
 const template = document.querySelector('#main');
