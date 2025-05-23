@@ -136,6 +136,20 @@ body {
     background-color: #063a58;
 }
 
+.specialMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 3rem;
+    width: 20rem;
+}
+
+img {
+    height: 20rem;
+}
+
+
 .page-two {
     background-color: blueviolet;
     display: grid;
