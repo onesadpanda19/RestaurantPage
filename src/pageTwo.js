@@ -48,7 +48,7 @@ function pageTwo() {
                 <p>A burger made of one patty, pastrami, bacon, stone-ground mustard, and swiss cheese</p>
                 <p>23$</p>
             </div>
-            <div class="entree">
+            <div class="Beef">
                 <h3>entree-four</h3>
                 <p>this is a brief description of entree-four</p>
                 <p>20</p>
